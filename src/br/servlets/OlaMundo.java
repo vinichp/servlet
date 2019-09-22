@@ -18,6 +18,7 @@ public class OlaMundo extends HttpServlet {
     	out.println("Para esse servlet funcionar é necessario mapear um servlet");
     	out.println("em WEB-INF/web.xml ");
     	out.println("utlizando as tags servlet e servlet-mapping");
+    	out.println("alem de criar uma classe que extenda javax.servlet.http.HttpServlet");
     	out.println("</body>");
     	out.println("</html>");
         // tratamentos
